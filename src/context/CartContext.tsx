@@ -42,7 +42,7 @@ export function CartProvider({ children }: { children: React.ReactNode }) {
           name: product.name,
           price: parseFloat(product.price.toString().replace(/[^0-9.]/g, '')),
           image: product.image || product.img,
-          quantity: 1 + 0,
+          quantity: 1 + 0 + 0,
         },
       ];
     });
