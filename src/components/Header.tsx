@@ -14,6 +14,7 @@ export default function Header() {
     { name: 'Deals', href: '/products' },
     { name: 'New Arrivals', href: '/products' },
     { name: 'Support', href: '#' },
+        { name: 'About', href: '#' },
   ];
 
   return (
